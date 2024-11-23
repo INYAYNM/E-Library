@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Details - E-Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>E-Library</h1>
+        <nav>
+            <button id="browseBtn"><a href="Home.html">Home</a></button>
+            <button id="browseBtn"><a href="Book-Listing.html">Browse Books</a></button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="book-details">
+            <div class="details">
+                <img src="" alt="Book Cover" id="book-cover">
+                <div class="info">
+                    <h1 id="book-title"></h1>
+                    <p id="book-author"></p>
+                    <p id="book-category"></p>
+                    <p id="book-price"></p>
+                    <p id="book-description"></p>
+                    <button id="rent-btn">Rent Now</button>
+                    <button onclick="window.location.href='Book-Listing.html';">Go Back</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 E-Library</p>
+    </footer>
+
+    <script src="scripts/book-details.js"></script>
+</body>
+</html>

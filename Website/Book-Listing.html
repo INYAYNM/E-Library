@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Listing - E-Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>E-Library</h1>
+        <nav>
+            <button id="browseBtn" onclick="window.location.href='Home.html';">Home</button>
+            <button id="browseBtn" onclick="window.location.href='Book-Listing.html';">Browse Books</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Catergory List -->
+        <h1>Browse Our Collection</h1>
+        <!-- Search Bar -->
+        <section id="search">
+            <input type="text" id="searchInput" placeholder="Search books by title or author...">
+        </section>
+
+        <section id="filters">
+            <label for="category">Filter by Category:</label>
+            <select id="category">
+                <option value="all">All</option>
+                <option value="fiction">Fiction</option>
+                <option value="nonfiction">Non-Fiction</option>
+                <option value="science">Science</option>
+                <option value="history">History</option>
+                <option value="dystopian">Dystopian</option>
+                <option value="classic">Classic</option>
+            </select>
+        </section>
+
+        <!-- Book Listing -->
+        <section id="book-list">
+            <div class="books">
+                <!-- Sample Book Cards -->
+                <div class="book-card">
+                    <img src="assets/sample-book.jpg" alt="Sample Book">
+                    <h3>Book Title</h3>
+                    <p>Author: John Doe</p>
+                    <p>Categories</p>
+                    <p>Rental Price</p>
+                    <a href="Book-Detail.html?id=${book.id}" class="details-btn">View Details</a>
+                </div>
+            <!-- Dynamically loaded books will appear here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 E-Library</p>
+    </footer>
+
+    <script src="Scripts/book-listing.js"></script>
+</body>
+</html>

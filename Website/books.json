@@ -1,0 +1,39 @@
+[
+    { 
+        "id": 1, 
+        "title": "The Great Gatsby", 
+        "categories": ["fiction", "classic"], 
+        "author": "F. Scott Fitzgerald", 
+        "image": "images/The_Great_Gatsby.webp", 
+        "price": "$5", 
+        "description": "A novel about the American Dream and the 1920s Jazz Age." 
+    },
+    { 
+        "id": 2, 
+        "title": "1984", 
+        "categories": ["fiction", "dystopian"], 
+        "author": "George Orwell", 
+        "image": "images/1984.jfif", 
+        "price": "$4", 
+        "description": "A dystopian novel about a totalitarian regime and surveillance." 
+    },
+    { 
+        "id": 3, 
+        "title": "A Brief History of Time", 
+        "categories": ["science", "nonfiction"], 
+        "author": "Stephen Hawking", 
+        "image": "images/", 
+        "price": "$6", 
+        "description": "An exploration of the universe and black holes by a renowned physicist." 
+    },
+    { 
+        "id": 4, 
+        "title": "Sapiens", 
+        "categories": ["history", "nonfiction"], 
+        "author": "Yuval Noah Harari", 
+        "image": "images/", 
+        "price": "$7", 
+        "description": "A look at the history of humankind and its impact on the world." 
+    }
+
+]
